@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6eee7">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Лианночка, на любом языке хочется сказать одно: я скучаю по тебе ♡">
+  <meta property="og:title" content="Лианночка, я скучаю ♡">
+  <meta property="og:description" content="Одно маленькое письмо. Одно большое чувство.">
+  <title>Лианночка, я скучаю ♡</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="page" id="page">
+    <header class="topbar">
+      <a class="wordmark" href="#home" aria-label="В начало открытки"><span class="mark" aria-hidden="true">♡</span><span>Одно чувство.<br><strong>На всех языках.</strong></span></a>
+      <span class="dedication"><span aria-hidden="true">✦</span> только для тебя</span>
+    </header>
+
+    <main id="home">
+      <div class="intro"><span class="little-line" aria-hidden="true"></span><p>Есть слова, которые хочется повторять.</p><span class="little-line" aria-hidden="true"></span></div>
+      <section class="universe" aria-labelledby="her-name">
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="spark spark-one" aria-hidden="true">✦</div>
+        <div class="spark spark-two" aria-hidden="true">♡</div>
+        <div class="spark spark-three" aria-hidden="true">✧</div>
+
+        <div class="words words-top" aria-label="Слова на разных языках">
+          <button class="word word-ru" type="button" data-language="ru" aria-pressed="false" style="--x:19%;--y:25%;--angle:-10deg;--delay:-1s"><span class="word-text" lang="ru">Я скучаю</span><span class="word-language">Русский</span></button>
+          <button class="word word-en" type="button" data-language="en" aria-pressed="false" style="--x:80%;--y:22%;--angle:9deg;--delay:-3s"><span class="word-text" lang="en">I miss u</span><span class="word-language">English</span></button>
+          <button class="word word-ja" type="button" data-language="ja" aria-pressed="false" style="--x:30%;--y:8%;--angle:-7deg;--delay:-2s"><span class="word-text" lang="ja">会いたい</span><span class="word-language">日本語</span></button>
+          <button class="word word-ko" type="button" data-language="ko" aria-pressed="false" style="--x:67%;--y:7%;--angle:6deg;--delay:-4s"><span class="word-text" lang="ko">보고 싶어</span><span class="word-language">한국어</span></button>
+        </div>
+
+        <div class="center-piece">
+          <p class="eyebrow">на любом языке — о тебе</p>
+          <h1 id="her-name">Лианночка<span class="name-heart" aria-hidden="true">♡</span></h1>
+          <p class="name-note">мне так тебя не хватает.</p>
+
+          <button class="photo-card" id="photo-letter" type="button" aria-label="Открыть письмо для Лианночки" aria-describedby="photo-caption">
+            <span class="photo-tape" aria-hidden="true"></span>
+            <span class="photo-window"><img src="assets/us.jpg" alt="Мы вдвоём за чашкой кофе" width="853" height="1280" fetchpriority="high"></span>
+            <span class="photo-caption" id="photo-caption">моё любимое «мы» <span aria-hidden="true">♡</span></span>
+            <span class="photo-corner" aria-hidden="true">✧</span>
+          </button>
+
+          <div class="translation" aria-live="polite" aria-atomic="true">
+            <span class="translation-language" id="translation-language">12 способов сказать одно</span>
+            <p id="translation-text">«Я скучаю по тебе»</p>
+            <span class="translation-meaning" id="translation-meaning">Коснись любой фразы вокруг ♡</span>
+          </div>
+
+          <button class="letter-button" id="open-letter" type="button"><span aria-hidden="true">✉</span><span>Маленькое письмо для тебя</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+        </div>
+
+        <div class="words words-bottom" aria-label="Ещё слова о тебе">
+          <button class="word" type="button" data-language="fr" aria-pressed="false" style="--x:12%;--y:46%;--angle:-8deg;--delay:-4s"><span class="word-text" lang="fr">Tu me manques</span><span class="word-language">Français</span></button>
+          <button class="word" type="button" data-language="es" aria-pressed="false" style="--x:88%;--y:44%;--angle:7deg;--delay:-2s"><span class="word-text" lang="es">Te extraño</span><span class="word-language">Español</span></button>
+          <button class="word" type="button" data-language="it" aria-pressed="false" style="--x:15%;--y:68%;--angle:8deg;--delay:-1s"><span class="word-text" lang="it">Mi manchi</span><span class="word-language">Italiano</span></button>
+          <button class="word" type="button" data-language="de" aria-pressed="false" style="--x:84%;--y:65%;--angle:-7deg;--delay:-3s"><span class="word-text" lang="de">Du fehlst mir</span><span class="word-language">Deutsch</span></button>
+          <button class="word" type="button" data-language="tr" aria-pressed="false" style="--x:28%;--y:87%;--angle:-7deg;--delay:-2s"><span class="word-text" lang="tr">Seni özledim</span><span class="word-language">Türkçe</span></button>
+          <button class="word" type="button" data-language="uz" aria-pressed="false" style="--x:72%;--y:87%;--angle:6deg;--delay:-4s"><span class="word-text" lang="uz">Seni sog‘indim</span><span class="word-language">O‘zbekcha</span></button>
+          <button class="word" type="button" data-language="zh" aria-pressed="false" style="--x:10%;--y:86%;--angle:-6deg;--delay:-3s"><span class="word-text" lang="zh">想你了</span><span class="word-language">中文</span></button>
+          <button class="word" type="button" data-language="ar" aria-pressed="false" style="--x:91%;--y:86%;--angle:6deg;--delay:-1s"><span class="word-text" lang="ar" dir="rtl">أشتاق إليكِ</span><span class="word-language">العربية</span></button>
+        </div>
+      </section>
+
+      <div class="keepsake"><span class="keepsake-line" aria-hidden="true"></span><p id="collection-status" aria-live="polite">Двенадцать языков. Одно чувство.</p><span class="keepsake-line" aria-hidden="true"></span></div>
+    </main>
+    <footer><span>С любовью, твой муж.</span><span aria-hidden="true">♡</span><span>Ты — моё любимое слово.</span></footer>
+  </div>
+
+  <dialog class="letter-dialog" id="letter-dialog" aria-labelledby="letter-title" aria-describedby="letter-personal">
+    <div class="letter-paper">
+      <button class="close-letter" id="close-letter" type="button" aria-label="Закрыть письмо">×</button>
+      <div class="letter-stamp" aria-hidden="true">♡</div>
+      <p class="eyebrow">одно маленькое письмо</p>
+      <h2 id="letter-title">Моя Лианночка,</h2>
+      <p class="letter-first">я очень скучаю по тебе.</p>
+      <p class="letter-personal" id="letter-personal">На любом языке хочется сказать одно:<br>хочу обнять тебя и побыть рядом.</p>
+      <p class="letter-last">А пока пусть эта открытка тебя обнимет.</p>
+      <div class="letter-signature"><span>Твой муж</span><span aria-hidden="true">♡</span></div>
+      <button class="hug-button" id="send-hug" type="button">Получить маленькое объятие ♡</button>
+      <p class="hug-message" id="hug-message" role="status" aria-live="polite"></p>
+    </div>
+    <div class="particle-layer" id="letter-particles" aria-hidden="true"></div>
+  </dialog>
+  <div class="particle-layer" id="particle-layer" aria-hidden="true"></div>
+  <noscript><p class="no-script">Чтобы открыть письмо и прочитать фразы, включи JavaScript в браузере ♡</p></noscript>
+</body>
+</html>

@@ -7,7 +7,7 @@
     es: { label: 'Español', text: 'Te extraño', meaning: 'Я скучаю по тебе ♡', dir: 'ltr' },
     it: { label: 'Italiano', text: 'Mi manchi', meaning: 'Мне тебя не хватает ♡', dir: 'ltr' },
     de: { label: 'Deutsch', text: 'Du fehlst mir', meaning: 'Мне тебя не хватает ♡', dir: 'ltr' },
-    tr: { label: 'Türkçe', text: 'Seni özledim', meaning: 'Я соскучился по тебе ♡', dir: 'ltr' },
+    hy: { label: 'Հայերեն', text: 'Ես կարոտում եմ քեզ', meaning: 'Я скучаю по тебе ♡', dir: 'ltr' },
     uz: { label: 'O‘zbekcha', text: 'Seni sog‘indim', meaning: 'Я соскучился по тебе ♡', dir: 'ltr' },
     ja: { label: '日本語', text: '会いたい', meaning: 'Так хочется тебя увидеть ♡', dir: 'ltr' },
     ko: { label: '한국어', text: '보고 싶어', meaning: 'Хочу тебя увидеть. Скучаю ♡', dir: 'ltr' },
